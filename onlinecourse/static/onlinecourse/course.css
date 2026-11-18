@@ -1,0 +1,75 @@
+body {
+  color: #162b35;
+  background: #f5f8fa;
+}
+
+.site-header, .card {
+  background: #fff;
+}
+
+.content-width {
+  max-width: 920px;
+}
+
+.brand, .back-link {
+  color: #086154;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.brand {
+  font-size: 1.2rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border-color: #d8e2e6;
+  border-radius: .75rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: #086154;
+  --bs-btn-border-color: #086154;
+  --bs-btn-hover-bg: #064a41;
+  --bs-btn-hover-border-color: #064a41;
+}
+
+legend {
+  float: none;
+}
+
+.result-banner {
+  border: 1px solid;
+  border-radius: .75rem;
+}
+
+.result-banner.passed {
+  background: #e6f5ed;
+  border-color: #a5d6bc;
+  color: #15583d;
+}
+
+.result-banner.failed {
+  background: #fff2dc;
+  border-color: #e4c38a;
+  color: #70480a;
+}
+
+.login-form {
+  max-width: 420px;
+}
+
+.login-form label {
+  display: block;
+  font-weight: 600;
+}
+
+.login-form input:not([type=hidden]) {
+  width: 100%;
+  border: 1px solid #a9bac2;
+  border-radius: .375rem;
+  padding: .5rem;
+}
